@@ -1,0 +1,98 @@
+body {
+    background-color: #4fbdc1;
+    font-family: 'Modak', cursive;
+}
+
+.scores {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10%;
+}
+
+.text {
+    color: wheat;
+    font-size: 50px;
+}
+
+.numberScore {
+    margin: 0px 46%;
+}
+
+.images {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.image {
+    width: 300px;
+}
+
+.circle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #555;
+    color: yellow;
+    min-width: 1em;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+  
+.circle:before {
+    content:'';
+    float: left;
+    width: auto;
+    padding-bottom: 100%;
+}
+
+.play {
+    background-color: wheat;
+}
+
+.comp {
+    background-color: darkorange;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.button {
+    font-family: inherit;
+    font-size: 21px;
+    background-color: black;
+    border: none;
+    outline:none;
+    border-radius: 24px;
+    color: wheat;
+    padding: 15px 24px;
+    text-align: center;
+    display: inline-block;
+    margin: 17px 2px;
+    cursor: pointer;
+}
+  
+.button:hover{
+    background-color: darkslategrey;
+}
+
+@media (max-width: 480px) {
+    .text {
+        font-size: 35px;
+    }
+
+    .image {
+        width: 155px;
+    }
+
+    .button {
+        margin:75px 2px;
+    }
+
+    .images {
+        top: 20px;
+        position: relative;
+    }
+    
+}

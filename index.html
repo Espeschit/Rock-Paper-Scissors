@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rock Paper Scissors</title>
+  <meta charset="UTF-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <link rel="stylesheet" href='./assets/style/index.css'>
+  <link rel='icon' href='./assets/images/pP.png'>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+    </style>
+  <script src='./assets/scripts/index.js' defer></script>
+</head>
+<body>
+  <div class='scores'>
+    <div class='text'>
+      Player
+      <div id='pScore' class='numberScore'>
+        0
+      </div>
+    </div>
+    <div style="color: orange" class='text'>
+      Computer
+      <div id='cScore' class='numberScore'>
+        0
+      </div>
+    </div>
+  </div>
+  <div id='display' style="text-align: center; color: unset" class='text'>
+    Make your move
+  </div>
+  <div class='images'>
+    <div class='circle play'>
+      <img id='imgPlay' class='image' src='./assets/images/rP.png'>
+    </div>
+    <div class='circle comp'>
+      <img id='imgComp' class='image' src='/assets/images/rC.png'>
+    </div>
+  </div>
+  <div class='buttons'>
+    <button id='rock' class='button'>Rock</button>
+    <button id='paper' class='button'>Paper</button>
+    <button id='scissors' class='button'>Scissors</button>
+  </div>
+</body>
+</html>
