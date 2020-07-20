@@ -1,5 +1,5 @@
 # Vanilla-Rock-Paper-Scissors
-Simple Rock-Paper-Scissors game built with Vanilla JS
+Rock-Paper-Scissors game built with Vanilla JS
 
 ### Some Technologies used:
 * Vanilla JS
